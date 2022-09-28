@@ -24,6 +24,10 @@
         font-size: 1em;
     }
 
+    div#formulario>h1 {
+        font-size: 1.6em;
+    }
+
     .inputs {
         padding-left: 6px;
         padding-right: 3px;
@@ -70,6 +74,8 @@
 
     div#formulario>h1 {
         font-size: 1.5em;
+        font-weight: bolder;
+        font-size: 2em;
     }
 
     input#entrar {
