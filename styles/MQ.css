@@ -60,9 +60,11 @@
     section#login>div#formulario {
         float: left;
         width: 50%;
+        margin-top: 3px;
     }
 
     div#formulario>p {
+        margin-top: 17px;
         font-size: 1.2em;
     }
 
@@ -72,7 +74,8 @@
 
     input#entrar {
         height: 45px;
-        margin-bottom: 6px;
+        margin-bottom: 10px;
+        margin-top: 25px;
     }
 
     a#esqueciS {
@@ -80,15 +83,20 @@
         justify-content: center;
         align-items: center;
         height: 45px;
+        margin-top: 3px;
     }
 
 
     input.inputs {
-        width: 90.6%;
+        width: 91%;
     }
 
     div.campo {
-        margin-bottom: 6px;
+        margin-top: 10px;
+    }
+
+    div#campo1 {
+        margin-top: 30px;
     }
 
     div#formulario > p {
