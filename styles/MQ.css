@@ -1,4 +1,3 @@
-
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
     body {
@@ -10,24 +9,39 @@
         height: 300px;
     }
 
-    section#login > div#imagem {
+    section#login>div#imagem {
         float: left;
         width: 35%;
         height: 100%;
     }
 
-    section#login > div#formulario {
+    section#login>div#formulario {
         float: right;
         width: 65%;
     }
 
-    div#formulario > p {
+    div#formulario>p {
         font-size: 1em;
+    }
+
+    .inputs {
+        padding-left: 6px;
+        padding-right: 3px;
+        width: 89.5%;
+    }
+
+    #entrar {
+        width: 100%;
+    }
+
+    #esqueciS {
+        display: block;
+        padding: 8px;
+        width: 100%;
     }
 }
 
 @media screen and (min-width: 992px) {
-
     body {
         background-image: linear-gradient(to top, #f3b600d2, #ff5500);
     }
@@ -37,22 +51,47 @@
         height: 400px;
     }
 
-    section#login > div#imagem {
+    section#login>div#imagem {
         float: right;
         width: 50%;
         height: 100%;
     }
 
-    section#login > div#formulario {
+    section#login>div#formulario {
         float: left;
         width: 50%;
     }
 
-    div#formulario > p {
+    div#formulario>p {
         font-size: 1.2em;
     }
 
-    div#formulario > h1 {
+    div#formulario>h1 {
         font-size: 1.5em;
+    }
+
+    input#entrar {
+        height: 45px;
+        margin-bottom: 6px;
+    }
+
+    a#esqueciS {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 45px;
+    }
+
+
+    input.inputs {
+        width: 90.6%;
+    }
+
+    div.campo {
+        margin-bottom: 6px;
+    }
+
+    div#formulario > p {
+        margin-bottom: 35px;
     }
 }
