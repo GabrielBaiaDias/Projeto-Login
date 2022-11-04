@@ -32,6 +32,7 @@
         padding-left: 6px;
         padding-right: 3px;
         width: 89.5%;
+        width: calc(100% - 45px);
     }
 
     #entrar {
@@ -52,7 +53,7 @@
 
     section#login {
         width: 990px;
-        height: 400px;
+        height: 380px;
     }
 
     section#login>div#imagem {
@@ -95,17 +96,15 @@
 
     input.inputs {
         width: 91%;
+        width: calc(100% - 45px);
     }
 
     div.campo {
-        margin-top: 10px;
-    }
-
-    div#campo1 {
-        margin-top: 30px;
+        margin-top: 8px;
+        height: 38.91px;
     }
 
     div#formulario > p {
-        margin-bottom: 35px;
+        margin-bottom: 17px;
     }
 }
